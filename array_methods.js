@@ -28,3 +28,6 @@ arr.forEach(element => {
     console.log(element);
 });
 
+let arr3 = [1, 2, 3];
+let mapped = arr3.map(x => x * 2);
+console.log(mapped);
