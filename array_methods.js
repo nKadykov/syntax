@@ -20,3 +20,11 @@ let arr1 = [1, 2]
 let arr2 = [3, 4]
 let combined = arr1.concat(arr2);
 console.log(combined);
+
+let sliced = arr.slice(1, 3);
+console.log(sliced);
+
+arr.forEach(element => {
+    console.log(element);
+});
+
